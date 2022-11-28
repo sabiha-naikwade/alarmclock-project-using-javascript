@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    color:black;
+    background-color: cyan;
+}
+
+select{
+  font-size: 1rem;
+  width:6rem;
+  height:2rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+form{
+  margin:20px auto;
+}
+
+.time-input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width:6.05rem;
+    height:2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.select-input{
+  border: 1px solid grey;
+  border-radius: 5px;
+  width:9.2rem;
+  height:2rem;
+  margin-top: 6px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.stop-btn,.snooze-btn{
+    width:148px;
+    margin: 6px auto;
+}
+
+.create-btn{
+    width:300px;
+    margin: 10px auto 0;
+}
+
+.alarm{
+   font-size: 1.5rem;
+}
+
+.deleteAlarm{
+    color:#ffffff;
+    position: absolute;
+    right:10px;
+    background-color: #282A3A;
+    border:none;
+}
+
+#time{
+    margin-top:50px;
+    font-size: 3rem;
+}
+
+#alarm-clock{
+    margin:0px auto;
+    height:100vh;
+    max-width:500px;
+}
+
+#alarm-list{
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+    position:relative;
+
+}
+
+#my-list{
+  list-style-type: none;
+  margin:none;
+  padding: none;
+}
